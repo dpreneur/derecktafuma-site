@@ -3,18 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dereck Tafuma | Teacher, Mental Health Nurse, Builder</title>
-  <meta name="description" content="Science and maths tuition, web services, and writing on mental health, training and money. Trained as a physics teacher in Cuba, twenty years in the classroom, now a registered mental health nurse in Corby." />
-  <link rel="canonical" href="https://derecktafuma.co.uk/" />
+  <title>Projects | Dereck Tafuma</title>
+  <meta name="description" content="Selected web projects from Tafuma Web Studio: permission-led client case studies, clearly labelled sample demos, and education work. Soft Business package £1,250." />
+  <link rel="canonical" href="https://derecktafuma.co.uk/projects.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://derecktafuma.co.uk/" />
-  <meta property="og:title" content="Dereck Tafuma | Teacher, Mental Health Nurse, Builder" />
-  <meta property="og:description" content="Science and maths tuition, web services, and writing on mental health, training and money. Trained as a physics teacher in Cuba, twenty years in the classroom, now a registered mental health nurse in Corby." />
+  <meta property="og:url" content="https://derecktafuma.co.uk/projects.html" />
+  <meta property="og:title" content="Projects | Dereck Tafuma" />
+  <meta property="og:description" content="Permission-led client work, sample portfolio demos, and education builds — without invented traffic or revenue claims." />
   <meta property="og:image" content="https://derecktafuma.co.uk/og-image.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dereck Tafuma | Teacher, Mental Health Nurse, Builder" />
-  <meta name="twitter:description" content="Science and maths tuition, web services, and writing on mental health, training and money. Trained as a physics teacher in Cuba, twenty years in the classroom, now a registered mental health nurse in Corby." />
-  <meta name="twitter:image" content="https://derecktafuma.co.uk/og-image.jpg" />
+  <meta name="robots" content="noindex" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
@@ -777,7 +775,58 @@
       nav { padding: 0.75rem 4%; }
       .about-collage { min-height: 340px; }
     }
-  </style>
+  
+    .page-hero { padding: 3.2rem 0 1.6rem; }
+    .page-hero h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(2rem, 4.2vw, 2.85rem);
+      letter-spacing: -0.03em; line-height: 1.12; max-width: 18ch;
+    }
+    .page-hero .lead { color: var(--muted); max-width: 62ch; margin-top: 0.9rem; font-size: 1.05rem; }
+    .page-hero .note {
+      margin-top: 0.85rem; font-size: 0.92rem; color: var(--muted);
+      border-left: 3px solid rgba(192,57,43,0.35); padding-left: 0.85rem;
+    }
+    .proj-section { padding: 1.2rem 0 3.5rem; }
+    .proj-section h2 {
+      font-family: Fraunces, Georgia, serif; font-size: 1.45rem;
+      margin-bottom: 0.35rem; letter-spacing: -0.01em;
+    }
+    .proj-section .sec-lead { color: var(--muted); margin-bottom: 1.25rem; max-width: 60ch; }
+    .proj-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem;
+    }
+    @media (max-width: 800px) { .proj-grid { grid-template-columns: 1fr; } }
+    .proj-card {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 1.35rem 1.4rem; display: flex; flex-direction: column; gap: 0.55rem;
+    }
+    .proj-card .meta { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .proj-card .badge {
+      display: inline-flex; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+      text-transform: uppercase; padding: 0.28rem 0.55rem; border-radius: 999px;
+      background: rgba(192,57,43,0.10); color: var(--accent);
+    }
+    .proj-card .badge.sample { background: rgba(40,28,18,0.08); color: var(--muted); }
+    .proj-card .badge.preview { background: rgba(231,180,75,0.22); color: #7a5a12; }
+    .proj-card .badge.agency { background: rgba(162,196,192,0.35); color: #2f5b57; }
+    .proj-card .badge.edu { background: rgba(63,79,71,0.12); color: #3f4f47; }
+    .proj-card h3 { font-family: Fraunces, Georgia, serif; font-size: 1.35rem; letter-spacing: -0.015em; }
+    .proj-card p { color: var(--muted); font-size: 0.98rem; flex: 1; }
+    .proj-card .links { display: flex; flex-wrap: wrap; gap: 0.75rem 1.1rem; margin-top: 0.35rem; }
+    .proj-card .links a { font-weight: 600; text-decoration: none; }
+    .proj-card .links a:hover { text-decoration: underline; }
+    .cta-band {
+      margin: 0.5rem 0 3.5rem; background: #1c1917; color: #fdf6f0;
+      border-radius: calc(var(--radius) + 4px); padding: 1.7rem 1.6rem;
+      display: grid; grid-template-columns: 1.4fr auto; gap: 1rem; align-items: center;
+    }
+    @media (max-width: 700px) { .cta-band { grid-template-columns: 1fr; } }
+    .cta-band h2 { font-family: Fraunces, Georgia, serif; font-size: 1.55rem; letter-spacing: -0.02em; }
+    .cta-band p { color: #d6d0c8; margin-top: 0.4rem; max-width: 48ch; }
+    .cta-band .btn-primary { display: inline-flex; text-decoration: none; }
+    .nav-links a[aria-current="page"] { color: var(--text); font-weight: 600; }
+</style>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5EWR0C30GE"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -797,7 +846,7 @@
     </div>
     <ul id="site-nav" class="nav-links">
       <li><a href="https://tafuma-web-studio.netlify.app/" target="_blank" rel="noopener"><img class="nav-ico" src="/graphics/icon-web-sm.jpg?v=navg28" alt="" width="40" height="40">Web Studio</a></li>
-      <li><a href="/projects.html"><img class="nav-ico" src="/graphics/icon-web-sm.jpg?v=navg29" alt="" width="40" height="40">Projects</a></li>
+      <li><a href="/projects.html" aria-current="page"><img class="nav-ico" src="/graphics/icon-web-sm.jpg?v=navg29" alt="" width="40" height="40">Projects</a></li>
       <li><a href="/tuition/"><img class="nav-ico" src="/graphics/icon-tuition-sm.jpg?v=navg28" alt="" width="40" height="40">Education</a></li>
       <li><a href="/writing/"><img class="nav-ico" src="/graphics/icon-writing-sm.jpg?v=navg28" alt="" width="40" height="40">Writing</a></li>
       <li><a href="/about.html"><img class="nav-ico" src="/graphics/icon-about-sm.jpg?v=navg28" alt="" width="40" height="40">About</a></li>
@@ -807,207 +856,119 @@
     </ul>
   </nav>
 
-  <header class="hero">
-    <div class="hero-copy">
-      <p class="hero-hello">
-        <span class="hello-mark">Hello.<svg class="hello-underline" viewBox="0 0 160 18" aria-hidden="true" focusable="false">
-          <path d="M4 11.4 C 22 16.8, 40 4.6, 58 10.2 C 76 15.6, 94 5.2, 114 11 C 128 14.8, 144 7.2, 156 10.4" fill="none" stroke="#E8A090" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg></span>
-      </p>
-      <h1>Teacher, nurse, builder. I turn hard subjects into things people can actually use.</h1>
-      <p class="intro">Twenty years teaching Physics and Maths, then mental health nursing, now websites and revision systems. Same job in different rooms: make the next step obvious.</p>
+  <header class="page-hero">
+    <div class="wrap">
+      <h1>Projects &amp; portfolio</h1>
+      <p class="lead">Work from Tafuma Web Studio and related education builds. Client case studies are published with permission. Sample demos are labelled clearly. No invented traffic or revenue figures.</p>
+      <p class="note">Need a clear website for a local business? The Business package is £1,250, written down before work starts.</p>
     </div>
-    <figure class="hero-graphic">
-      <img src="/graphics/hero-graphic-sm.jpg?v=20260828g" alt="Illustrated topic board with maths diagrams, a notepad and pencils on a yellow shape" width="1000" height="866" />
-    </figure>
-    <svg class="hero-arrow" viewBox="0 0 80 118" aria-hidden="true" focusable="false">
-      <path d="M24 6 C 10 40, 70 44, 44 100" fill="none" stroke="#E07A5F" stroke-width="2.4" stroke-linecap="round"/>
-      <path d="M30 84 L44 104 L62 86" fill="none" stroke="#E07A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
   </header>
 
-  <section class="product" aria-labelledby="tws-title">
+  <section class="proj-section" aria-labelledby="agency-title">
     <div class="wrap">
-      <div class="product-card">
-        <div class="product-copy">
-          <h2 id="tws-title">Tafuma Web Studio</h2>
-          <p>A clear website for a local business. Business package £1,250, written down before work starts.</p>
-          <a class="btn-primary" href="https://tafuma-web-studio.netlify.app" target="_blank" rel="noopener">Get a website £1,250</a>
-        </div>
-        <figure class="product-visual">
-          <img src="/graphics/tws-offer.jpg?v=20260903a" alt="First screen of a Tafuma Web Studio business site" width="960" height="720" />
-        </figure>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="projects-teaser" aria-labelledby="projects-teaser-title">
-    <div class="wrap">
-      <div class="pt-head">
-        <div>
-          <h2 id="projects-teaser-title">Selected projects</h2>
-          <p class="pt-lead">Permission-led client work from Tafuma Web Studio, plus clearly labelled sample demos. Full list on the Projects page.</p>
-        </div>
-        <a class="pt-all" href="/projects.html">View all projects →</a>
-      </div>
-      <div class="pt-grid">
-        <a class="pt-card" href="https://tafuma-web-studio.netlify.app/work/ochola-xpress" target="_blank" rel="noopener">
-          <span class="badge">Client</span>
-          <h3>Ochola Xpress</h3>
-          <p>UK-to-Uganda sourcing journey — clear quote request, mobile-first.</p>
-          <span class="go">Case study →</span>
-        </a>
-        <a class="pt-card" href="https://tafuma-web-studio.netlify.app/work/care-crush" target="_blank" rel="noopener">
-          <span class="badge">Client</span>
-          <h3>Care Crush</h3>
-          <p>Wellness sourcing with eligibility checks and responsible boundaries.</p>
-          <span class="go">Case study →</span>
-        </a>
-        <a class="pt-card" href="https://zimbo-grapevine.netlify.app" target="_blank" rel="noopener">
-          <span class="badge sample">Sample demo</span>
-          <h3>Zimbo Grapevine</h3>
-          <p>Portfolio news-magazine demo. Sample copy only — not live reporting.</p>
-          <span class="go">Open demo →</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="help" aria-labelledby="help-title">
-    <div class="wrap">
-      <h2 id="help-title">How can I help you?</h2>
-      <div class="help-grid">
-        <a class="help-card" href="https://tafuma-web-studio.netlify.app" target="_blank" rel="noopener">
-          <img class="icon" src="/graphics/icon-web-sm.jpg?v=20260828g" alt="" width="88" height="88" />
+      <h2 id="agency-title">Agency</h2>
+      <p class="sec-lead">The studio that plans, writes and builds the client sites below.</p>
+      <div class="proj-grid">
+        <article class="proj-card">
+          <div class="meta"><span class="badge agency">Studio</span></div>
           <h3>Tafuma Web Studio</h3>
-          <p>A clear website for a local business. Business package £1,250, written down before work starts.</p>
-          <span class="get-started">Get started →</span>
-        </a>
-        <a class="help-card" href="/tuition/">
-          <img class="icon" src="/graphics/icon-tuition-sm.jpg?v=20260828g" alt="" width="88" height="88" />
-          <h3>Physics tuition</h3>
-          <p>GCSE and A-Level Physics. Twenty years teaching, all UK exam boards, online and around Corby.</p>
-          <span class="get-started">Get started →</span>
-        </a>
-        <a class="help-card" href="https://therevisionlab.com/products/standard-revisionlab-hub" target="_blank" rel="noopener">
-          <img class="icon" src="/graphics/icon-hub-sm.jpg?v=20260828g" alt="" width="88" height="88" />
-          <h3>Standard Hub</h3>
-          <p>A private revision website for one student. After you pay, it shows what to work on next.</p>
-          <span class="get-started">Get started →</span>
-        </a>
-        <a class="help-card" href="/mental-health/">
-          <img class="icon" src="/graphics/icon-mh-sm.jpg?v=20260828g" alt="" width="88" height="88" />
-          <h3>Mental health writing</h3>
-          <p>Spotting the signs, finding the NHS pathway, and supporting someone through it. Written for the public by a registered mental health nurse.</p>
-          <span class="get-started">Get started →</span>
-        </a>
-        <a class="help-card" href="/writing/">
-          <img class="icon" src="/graphics/icon-writing-sm.jpg?v=20260828g" alt="" width="88" height="88" />
-          <h3>More writing</h3>
-          <p>Essays and guides on learning, money, and the rest. Filter by whichever part of the work you came for.</p>
-          <span class="get-started">Get started →</span>
-        </a>
+          <p>Clear websites for growing businesses — strategy, design, development and dependable support from one accountable partner. Trading as Tafuma Web Services under TAFUMA LIMITED.</p>
+          <div class="links">
+            <a href="https://tafuma-web-studio.netlify.app" target="_blank" rel="noopener">Visit studio →</a>
+            <a href="https://tafuma-web-studio.netlify.app/#pricing" target="_blank" rel="noopener">Business £1,250 →</a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="about" aria-labelledby="about-title">
+  <section class="proj-section" aria-labelledby="clients-title">
     <div class="wrap">
-      <h2 id="about-title">I'm Dereck</h2>
-      <div class="about-layout">
-        <div class="about-copy">
-          <p>I trained as a physics teacher in Cuba, in Spanish, on the Isla de la Juventud. After that I taught for twenty years — first in Zimbabwe, then in England.</p>
-          <p>I am a registered mental health nurse. I work on a psychiatric intensive care unit. I live in Corby. I still tutor Physics, and I build revision sites and small-business websites because the job is the same: make the next step obvious.</p>
-          <p><a class="more" href="/about.html">Read the full story →</a></p>
-        </div>
-        <div class="about-collage" aria-label="Illustrated scenes, not photographs of Dereck">
-          <figure class="collage-item collage-cuba">
-            <img src="/graphics/collage-cuba-sm.jpg?v=20260828g" alt="Illustration of a Cuba classroom" width="880" height="586" loading="lazy" />
-          </figure>
-          <figure class="collage-item collage-ward">
-            <img src="/graphics/collage-ward-sm.jpg?v=20260828g" alt="Illustration of a PICU corridor" width="880" height="586" loading="lazy" />
-          </figure>
-          <figure class="collage-item collage-build">
-            <img src="/graphics/collage-build-sm.jpg?v=20260828g" alt="Illustration of a Corby kitchen workspace" width="880" height="586" loading="lazy" />
-          </figure>
-        </div>
-      </div>
-      <div class="timeline" aria-label="Quiet timeline">
-        <div class="tl-item">
-          <div class="tl-when">1994 – 1999</div>
-          <div class="tl-what">Cuba</div>
-          <div class="tl-note">Physics teacher training, in Spanish, Isla de la Juventud.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-when">1999 – 2004</div>
-          <div class="tl-what">Zimbabwe</div>
-          <div class="tl-note">First five years in front of a class. Gwanda, then Bulawayo.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-when">2004 – 2019</div>
-          <div class="tl-what">England</div>
-          <div class="tl-note">Fifteen more years teaching, mostly supply. QTS in 2018.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-when">2022</div>
-          <div class="tl-what">PICU</div>
-          <div class="tl-note">Qualified as a registered mental health nurse. Psychiatric intensive care.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-when">Now</div>
-          <div class="tl-what">Corby</div>
-          <div class="tl-note">Nursing, tutoring, websites, and writing it down.</div>
-        </div>
+      <h2 id="clients-title">Permission-led client work</h2>
+      <p class="sec-lead">Completed customer journeys, presented with written client approval and without unsupported performance claims.</p>
+      <div class="proj-grid">
+        <article class="proj-card">
+          <div class="meta"><span class="badge">Client</span></div>
+          <h3>Ochola Xpress</h3>
+          <p>A focused, mobile-ready UK-to-Uganda product sourcing journey organised around a clear quote request. Strategy, content structure, responsive design and launch support.</p>
+          <div class="links">
+            <a href="https://tafuma-web-studio.netlify.app/work/ochola-xpress" target="_blank" rel="noopener">Case study →</a>
+            <a href="https://ocholaxpress.com/" target="_blank" rel="noopener">Live site →</a>
+          </div>
+        </article>
+        <article class="proj-card">
+          <div class="meta"><span class="badge">Client</span></div>
+          <h3>Care Crush</h3>
+          <p>A warm wellness and personal-care sourcing site that keeps eligibility checks, responsible sourcing and non-medical boundaries visible in the journey.</p>
+          <div class="links">
+            <a href="https://tafuma-web-studio.netlify.app/work/care-crush" target="_blank" rel="noopener">Case study →</a>
+            <a href="https://carecrush.ocholaxpress.com/" target="_blank" rel="noopener">Live site →</a>
+          </div>
+        </article>
+        <article class="proj-card">
+          <div class="meta"><span class="badge preview">Preview</span></div>
+          <h3>Elmbridge Care Business Hub</h3>
+          <p>A preview build for a care-business hub. Linked from this site while the live client presentation continues to evolve.</p>
+          <div class="links">
+            <a href="https://elmbridge-care-business-hub.netlify.app/" target="_blank" rel="noopener">Open preview →</a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="watch" aria-labelledby="watch-title">
+  <section class="proj-section" aria-labelledby="demos-title">
     <div class="wrap">
-      <h2 id="watch-title">One clip</h2>
-      <p class="lead">A faceless short. No talking-head grid, and no invented catalogue of videos I have not made.</p>
-      <div class="watch-layout">
-        <div class="video-frame">
-          <iframe
-            src="https://www.youtube.com/embed/biqoihej_Yk"
-            title="Faceless clip"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </div>
-        <div class="post-list">
-          <a class="post-card" href="/bitcoin/start-here.html">
-            <span class="tag">Bitcoin</span>
-            <h3>Bitcoin from first principles</h3>
-            <p>Explained by a physics teacher, starting from the problem rather than the technology.</p>
-          </a>
-          <a class="post-card" href="/mental-health/for-families.html">
-            <span class="tag">Mental health</span>
-            <h3>When the family doesn't believe in it</h3>
-            <p>Stigma, faith, and what to do when a relative needs help and nobody will name the problem.</p>
-          </a>
-          <a class="post-card" href="/tuition/physics.html">
-            <span class="tag">Tuition</span>
-            <h3>Why students think they're bad at physics</h3>
-            <p>They usually aren't. They can't rearrange an equation with the unknown on the bottom.</p>
-          </a>
-        </div>
+      <h2 id="demos-title">Sample demos</h2>
+      <p class="sec-lead">Portfolio demonstrations built by Tafuma Web Studio. Content is sample / demo copy — not live news reporting or a live booking business.</p>
+      <div class="proj-grid">
+        <article class="proj-card">
+          <div class="meta"><span class="badge sample">Sample demo</span></div>
+          <h3>Zimbo Grapevine</h3>
+          <p>A Zimbabwe news-magazine style demo with section desks and sample stories. Written for a web-studio case study, not as journalism.</p>
+          <div class="links">
+            <a href="https://zimbo-grapevine.netlify.app" target="_blank" rel="noopener">Open demo →</a>
+          </div>
+        </article>
+        <article class="proj-card">
+          <div class="meta"><span class="badge sample">Sample demo</span></div>
+          <h3>Victoria Falls Safaris</h3>
+          <p>An independent trip-planning demo for Victoria Falls experiences — itinerary shaping, provider matching and enquiry flows for portfolio review.</p>
+          <div class="links">
+            <a href="https://victoria-falls-safaris.netlify.app" target="_blank" rel="noopener">Open demo →</a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="newsletter">
+  <section class="proj-section" aria-labelledby="edu-title">
     <div class="wrap">
-      <div class="nl-card">
-        <h2>One email, when there's something worth sending</h2>
-        <p>Not a daily newsletter and not a huge list. When I publish something I think is actually good — a revision guide, an essay, something about getting help — I will send it. Tell me which parts you want, and I will not send you the rest.</p>
-        <a class="btn-primary" href="/contact.html">Get in touch →</a>
-        <span class="nl-note">No spam, and I am not going to sell your address.</span>
+      <h2 id="edu-title">Education work</h2>
+      <p class="sec-lead">Tutoring and student learning systems sit alongside the web studio. Mentioned lightly here — the primary web offer for businesses remains the Business package.</p>
+      <div class="proj-grid">
+        <article class="proj-card">
+          <div class="meta"><span class="badge edu">Education</span></div>
+          <h3>Physics tuition &amp; Student Hub</h3>
+          <p>GCSE and A-Level Physics from twenty years in the classroom, plus private revision hubs that show a student what to work on next. Education path — not the lead web-studio offer.</p>
+          <div class="links">
+            <a href="/tuition/">Tuition →</a>
+            <a href="https://therevisionlab.com/products/standard-revisionlab-hub" target="_blank" rel="noopener">Student Hub →</a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
+
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2>Ready for a clear business website?</h2>
+        <p>Business package £1,250 — scope and price written down before work starts. Plan with Tafuma Web Studio.</p>
+      </div>
+      <a class="btn-primary" href="https://tafuma-web-studio.netlify.app" target="_blank" rel="noopener">Get a website £1,250</a>
+    </div>
+  </div>
 
   <footer>
     <div class="footer-inner">
@@ -1065,60 +1026,6 @@
       <p>Teacher. Nurse. Builder.</p>
     </div>
   </footer>
-
-  <script type="application/ld+json">
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Dereck Tafuma",
-    "url": "https://derecktafuma.co.uk/",
-    "description": "Teacher, registered mental health nurse and builder. Science and maths tuition, web services, and writing on mental health, training and money."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Dereck Tafuma",
-    "url": "https://derecktafuma.co.uk/",
-    "jobTitle": ["Registered Mental Health Nurse", "Teacher", "Tutor"],
-    "nationality": "Zimbabwean",
-    "description": "Trained as a physics teacher on Cuba's Isla de la Juventud from 1994 to 1999, studying entirely in Spanish. Twenty years in the classroom across Zimbabwe and England. Registered mental health nurse in psychiatric intensive care since 2022. Tutors physics, maths, chemistry and biology, and runs Tafuma Web Services.",
-    "knowsLanguage": ["English", "Shona", "Northern Ndebele", "Spanish", "French"],
-    "homeLocation": {
-      "@type": "Place",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Corby",
-        "addressRegion": "Northamptonshire",
-        "addressCountry": "GB"
-      }
-    },
-    "worksFor": {
-      "@type": "Organization",
-      "name": "TAFUMA LIMITED"
-    },
-    "hasCredential": [
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "degree",
-        "name": "Five-year teacher training degree in Physics, Cuba (1994-1999), studied in Spanish"
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "Professional certification",
-        "name": "Qualified Teacher Status (QTS), England, 2018"
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "Professional registration",
-        "name": "Registered Mental Health Nurse (RMN), Nursing and Midwifery Council, 2022"
-      }
-    ],
-    "sameAs": ["https://x.com/derecktafuma", "https://medium.com/@dtafuma"]
-  }
-]
-  </script>
-
   <script>
     (function () {
       var nav = document.querySelector('nav');
