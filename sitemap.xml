@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Pages that live in this repository only.
+  Hostinger production still serves older paths that are not sourced here
+  (about.html, contact.html, blog/, tuition/, mental-health/, writing/,
+  bitcoin/, services/, marketplaces.html, privacy-policy.html, and others).
+  Do not treat this file as a full-site replacement until those pages are
+  in-repo; merge with the live Hostinger sitemap when uploading.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://derecktafuma.co.uk/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://derecktafuma.co.uk/projects.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
