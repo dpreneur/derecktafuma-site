@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Dereck Tafuma">
+  <rect width="32" height="32" rx="7" fill="#FDF6F0"/>
+  <rect x="5.5" y="6.5" width="21" height="19" rx="3.2" fill="#ffffff" stroke="#c0392b" stroke-width="1.8"/>
+  <path d="M5.5 11.4h21" fill="none" stroke="#c0392b" stroke-width="1.8"/>
+  <circle cx="9.2" cy="8.95" r="0.95" fill="#c0392b"/>
+  <circle cx="12.3" cy="8.95" r="0.95" fill="#c0392b"/>
+  <circle cx="15.4" cy="8.95" r="0.95" fill="#c0392b"/>
+  <rect x="8.2" y="14.1" width="9.4" height="3.4" rx="0.7" fill="#c0392b"/>
+  <rect x="19.1" y="14.1" width="4.2" height="3.4" rx="0.7" fill="#E8A090"/>
+  <rect x="8.2" y="19.1" width="4.2" height="3.4" rx="0.7" fill="#E8A090"/>
+  <rect x="13.3" y="19.1" width="4.2" height="3.4" rx="0.7" fill="#E8A090"/>
+  <rect x="18.4" y="19.1" width="4.9" height="3.4" rx="0.7" fill="#E8A090"/>
+</svg>
